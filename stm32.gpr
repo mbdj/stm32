@@ -20,9 +20,9 @@ project Stm32 is
    package Compiler is
 
       -- for Default_Switches ("Ada") use -- Stm32_Config.Ada_Compiler_Switches;
-      for Default_Switches ("ada") use external_as_list ("ADAFLAGS", " ") & ("-Og", "-ffunction-sections", "-fdata-sections", "-g", "-gnatwa", "-gnatw.X", "-gnatVa", "-gnaty3", "-gnatya", "-gnatyA", "-gnatyB", "-gnatyb", "-gnatyc", "-gnaty-d", 
+      for Default_Switches ("ada") use external_as_list ("ADAFLAGS", " ") & ("-Og", "-ffunction-sections", "-fdata-sections", "-g", "-gnatwa", "-gnatw.X", "-gnatVa", "-gnaty3", "-gnatya", "-gnatyA", "-gnatyB", "-gnatyb", "-gnatyc", "-gnaty-d",
          "-gnatye", "-gnatyf", "-gnatyh", "-gnatyi", "-gnatyI", "-gnatyk", "-gnatyl", "-gnatym", "-gnatyn", "-gnatyO", "-gnatyp", "-gnatyr", "-gnatyS", "-gnatyt", "-gnatyu", "-gnatyx",
-"-g", "-gnatQ", "-gnat2022");
+"-g", "-gnatQ");
    end Compiler;
 
    package Binder is
@@ -54,4 +54,3 @@ project Stm32 is
 -- fin ajout
 
 end Stm32;
-
