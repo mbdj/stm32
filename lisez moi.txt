@@ -1,0 +1,5 @@
+Ce projet peut être réutilisé comme modèle pour un nouveau projet basé sur un stm32 F446
+
+si le nom du projet est renommé (stm32.gpr) alors il faut :
+- modifier la valeur de name dans alire.toml
+- modifier le nom du projet (project ...) dans le nouveau .gpr
